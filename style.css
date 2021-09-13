@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+}
+
+.borderFrame {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  padding: 8px;
+}
+
+.stickMenu {
+  position: fixed;
+  left: 16px;
+  top: 16px;
+  width: 35px;
+  height: 35px;
+  background-color: #D6345D;
+  border-radius: 2px;
+  border: 1px solid white;
+  box-sizing: border-box;
+}
+
+.coverBg {
+  width: 100%;
+}
