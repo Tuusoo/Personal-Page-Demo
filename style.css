@@ -6,21 +6,112 @@ body {
   position: fixed;
   width: 100%;
   height: 100%;
-  padding: 8px;
+  border: 8px solid #FFFFFF;
+  z-index: 10;
 }
 
 .stickMenu {
   position: fixed;
-  left: 16px;
-  top: 16px;
-  width: 35px;
-  height: 35px;
+  left: 23px;
+  top: 39px;
+  width: 36px;
+  height: 36px;
   background-color: #D6345D;
   border-radius: 2px;
-  border: 1px solid white;
+  border: 1px solid #E493A4;
   box-sizing: border-box;
+  z-index: 10;
+}
+
+.bodyContent {
+  padding: 8px;
+}
+
+.coverArea {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
 }
 
 .coverBg {
   width: 100%;
+}
+
+.headPicArea {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+}
+
+.headPicArea .headPic {
+  width: 200px;
+  height: 200px;
+  border: 7px white solid;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.headPicArea .headPic img {
+  width: 200px;
+  height: 200px;
+}
+
+.headPicArea .name {
+  font-size: 48px;
+  line-height: 24px;
+  margin-top: 20px;
+}
+
+.headPicArea .workDescribe {
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 12px;
+}
+
+.headPicArea .icons {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  margin-top: 30px;
+}
+
+.headPicArea .icons .icon {
+  height: 32px;
+  width: 32px;
+  border: 1px solid #FFFFFF;
+  border-radius: 50%;
+}
+
+.coverArea .buttons {
+  position: absolute;
+  left: 50%;
+  bottom: 100px;
+  transform: translateX(-50%);
+  display: flex;
+  width: 320px;
+  justify-content: space-between;
+}
+
+.coverArea .buttons div {
+  height: 50px;
+  width: 140px;
+  text-align: center;
+  line-height: 50px;
+  color: #FFFFFF;
+  border-radius: 3px;
+}
+
+.coverArea .buttons .left {
+  background: #D63C5D;
+}
+
+.coverArea .buttons .right {
+  border: 1px solid #FFFFFF;
 }
