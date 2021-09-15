@@ -1,0 +1,63 @@
+.page2 {
+  width: 100%;
+  height: 100vh;
+  background: #EDEDED;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.page2 .chapter {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.page2 .chapter .bigText {
+  font-size: 30px;
+  line-height: 29px;
+}
+
+.page2 .chapter .smallText {
+  color: #8f8f8f;
+  line-height: 24px;
+  margin-top: 20px;
+  width: 700px;
+  text-align: center;
+}
+
+.page2 .skills {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.page2 .skills .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.page2 .skills .item .circle {
+  height: 130px;
+  width: 130px;
+  background-color: #2F293C;
+  border-radius: 50%;
+}
+
+.page2 .skills .item .big {
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.page2 .skills .item .small {
+  font-size: 13px;
+  line-height: 20px;
+  text-align: center;
+  margin-top: 20px;
+  color: #8f8f8f;
+}

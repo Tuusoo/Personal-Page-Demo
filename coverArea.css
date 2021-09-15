@@ -1,15 +1,3 @@
-body {
-  margin: 0;
-}
-
-.borderFrame {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  border: 8px solid #FFFFFF;
-  z-index: 10;
-}
-
 .stickMenu {
   position: fixed;
   left: 23px;
@@ -23,15 +11,15 @@ body {
   z-index: 10;
 }
 
-.bodyContent {
-  padding: 8px;
-}
-
 .coverArea {
   position: relative;
   width: 100%;
   height: 100vh;
   overflow: hidden;
+  user-select: none;
+  background-image: url(./images/bg-mia.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 .coverBg {
