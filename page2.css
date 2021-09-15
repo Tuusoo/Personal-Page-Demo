@@ -30,7 +30,7 @@
 .page2 .skills {
   display: flex;
   justify-content: space-between;
-  width: 80%;
+  width: 60%;
 }
 
 .page2 .skills .item {
@@ -38,6 +38,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 250px;
 }
 
 .page2 .skills .item .circle {
