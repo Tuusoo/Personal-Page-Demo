@@ -27,6 +27,58 @@
   text-align: center;
 }
 
+.page2 .banner {
+  position: relative;
+  width: 900px;
+  height: 150px;
+  overflow: hidden;
+}
+
+.page2 .banner .warp {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  transition: left 0.5s;
+}
+
+.page2 .banner .warp .item {
+  width: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.page2 .banner .warp .item .title {
+  font-size: 20px;
+  color: #d63c5d;
+}
+
+.page2 .banner .warp .item .time {
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.page2 .banner .warp .item .desc {
+  font-size: 14px;
+  color: #8F8F8F;
+  margin-top: 20px;
+}
+
+.page2 .switch {
+  display: flex;
+  justify-content: space-between;
+}
+
+.page2 .switch .button {
+  width: 20px;
+  height: 4px;
+  box-sizing: border-box;
+  background-color: #E295A5;
+  border-radius: 2px;
+}
+
 .page2 .skills {
   display: flex;
   justify-content: space-between;

@@ -17,7 +17,7 @@
   height: 100vh;
   overflow: hidden;
   user-select: none;
-  background-image: url(./images/bg-mia.jpg);
+  background-image: url(../images/bg-mia.jpg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
