@@ -4,6 +4,25 @@
   align-items: center;
 }
 
+.page3 .switcher {
+  margin-top: 40px;
+  font-size: 10px;
+  color: #d63c5d;
+  user-select: none;
+}
+
+.page3 .pics {
+  margin-top: 20px;
+  width: 100%;
+  font-size: 0;
+}
+
+.page3 .pics img {
+  width: 20%;
+  border: 1px solid transparent;
+  box-sizing: border-box;
+}
+
 .page3 .title {
   font-size: 30px;
   line-height: 30px;
