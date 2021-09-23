@@ -1,3 +1,7 @@
+a {
+  text-decoration: none;
+}
+
 .stickMenu {
   position: fixed;
   left: 23px;
@@ -9,6 +13,7 @@
   border: 1px solid #E493A4;
   box-sizing: border-box;
   z-index: 10;
+  cursor: pointer;
 }
 
 .coverArea {
@@ -39,6 +44,7 @@
 }
 
 .headPicArea .headPic {
+  position: relative;
   width: 200px;
   height: 200px;
   border: 7px white solid;
@@ -47,8 +53,17 @@
 }
 
 .headPicArea .headPic img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
   width: 200px;
-  height: 200px;
+  transition: width 0.3s;
+  cursor: pointer;
+}
+
+.headPicArea .headPic img:hover {
+  width: 240px;
 }
 
 .headPicArea .name {
@@ -74,7 +89,15 @@
   height: 32px;
   width: 32px;
   border: 1px solid #FFFFFF;
+  background-color: transparent;
   border-radius: 50%;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+.headPicArea .icons .icon:hover {
+  border: 1px solid #55ACEF;
+  background-color: #55ACEF;
 }
 
 .coverArea .buttons {
@@ -98,8 +121,22 @@
 
 .coverArea .buttons .left {
   background: #D63C5D;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+.coverArea .buttons .left:hover {
+  color: #D63C5D;
+  border: 1px solid #FFFFFF;
+  background: #FFFFFF;
 }
 
 .coverArea .buttons .right {
   border: 1px solid #FFFFFF;
+  transition: background-color 0.3s;
+}
+
+.coverArea .buttons .right:hover {
+  color: #D63C5D;
+  background: #FFFFFF;
 }

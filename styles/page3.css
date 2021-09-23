@@ -21,6 +21,7 @@
   width: 20%;
   border: 1px solid transparent;
   box-sizing: border-box;
+  cursor: pointer;
 }
 
 .page3 .title {
@@ -39,4 +40,9 @@
   user-select: none;
   line-height: 40px;
   margin: 40px 0 100px 0;
+  transition: background-color 0.3s;
+}
+
+.page3 .button:hover {
+  background: #2F293C;
 }

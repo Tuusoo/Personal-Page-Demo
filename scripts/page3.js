@@ -59,3 +59,13 @@ function switchTab(e) {//点击标签切换事件
       break;
   }
 }
+
+function hideElement(ele) {
+  ele.style.transform = "scale(0)";
+  ele.style.display = "none";
+}
+
+function showElement(ele) {
+  ele.style.transform = "scale(1)";
+  ele.style.display = "inline";
+}

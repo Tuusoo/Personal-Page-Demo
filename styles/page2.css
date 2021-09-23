@@ -98,6 +98,12 @@
   width: 130px;
   background-color: #2F293C;
   border-radius: 50%;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+.page2 .skills .item .circle:hover {
+  background-color: #D63C5D;
 }
 
 .page2 .skills .item .big {
